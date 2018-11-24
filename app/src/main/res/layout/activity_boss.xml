@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgapp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textScreen"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkpoint Time" />
+
+
+    <ImageView
+        android:id="@+id/bigboss"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/icboss"
+        android:layout_width="180dp"
+        android:layout_height="180dp" />
+
+
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Well Done! Ready for Boss?" />
+    
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:id="@+id/textTitle"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPurple"
+        android:text="Continue"
+        android:paddingBottom="10dp"
+        android:textSize="28sp"
+        android:background="@drawable/bgbtn"
+        android:layout_width="280dp"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:id="@+id/textBtn"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="#AD87FF"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Home" />
+
+</LinearLayout>
